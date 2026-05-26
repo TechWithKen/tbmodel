@@ -1,8 +1,33 @@
 Metadata-Version: 2.4
 Name: tbmodel
-Version: 1.0
+Version: 1.0.0
+Summary: Tuberculosis risk stratification machine learning pipeline
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: numpy
 Requires-Dist: pandas
 Requires-Dist: scikit-learn
 Requires-Dist: xgboost
 Requires-Dist: joblib
+Dynamic: license-file
+
+# TBModel
+
+A modular machine learning pipeline for tuberculosis risk stratification.
+
+## Installation
+
+pip install tbmodel
+
+## Usage
+
+tbmodel train
+
+## Created By:
+Kehinde Ajasa 
+
+## Organisation:
+
+DATICAN
+
